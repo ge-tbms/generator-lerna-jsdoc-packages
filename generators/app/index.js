@@ -21,7 +21,7 @@ module.exports = class extends Generator {
   prompting() {
     // Have Yeoman greet the user.
     this.log(
-      yosay(`Welcome to the rad ${chalk.red('generator-typescript-jest-sdk')} generator!`)
+      yosay(`Welcome to the rad ${chalk.red('generator-lerna-jest-packages')} generator!`)
     );
 
     const prompts = [
@@ -121,6 +121,6 @@ module.exports = class extends Generator {
 
   end() {
     this.log.ok('Project ' + this.answers.name + ' generated!!!')
-    this.spawnCommand('npm', ['run', 'bootstrap'])
+    this.spawnCommand('npm', ['run', 'hoist'])
   }
 };
