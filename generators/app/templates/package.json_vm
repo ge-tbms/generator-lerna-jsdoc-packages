@@ -7,7 +7,9 @@
     "doc": "npx jsdoc -c conf.json -R README.md -r",
     "pub": "npx lerna changed && npx lerna publish",
     "bootstrap": "npx lerna bootstrap",
-    "hoist": "npx lerna bootstrap --hoist"
+    "hoist": "npx lerna bootstrap --hoist",
+    "clean": "npx lerna clean",
+    "link": "npx lerna link"
   },
   "keywords": [<% answers.keywords.split(',').forEach(function(value, index){ %> <%if (index!==0){%>,<%}%>"<%= value.trim() %>" <%})%>],
   "license": "ISC",
