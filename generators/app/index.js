@@ -107,6 +107,7 @@ module.exports = class extends Generator {
 
     this.fs.copy(this.templatePath('conf.json'), this.destinationPath('conf.json'))
     this.fs.copy(this.templatePath('lerna.json'), this.destinationPath('lerna.json'))
+    this.fs.copy(this.templatePath('gitignore'), this.destinationPath('.gitignore'))
     this.fs.copyTpl(this.templatePath('package.json_vm'), this.destinationPath('package.json'), this.obj)
 
     this.fs.copyTpl(this.templatePath('readme.md'), this.destinationPath('readme.md'), this.obj)

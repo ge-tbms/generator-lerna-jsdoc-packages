@@ -1,6 +1,6 @@
 {
   "name": "generator-lerna-jsdoc-packages",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "the scaffold of creating packages width lerna and jsdoc",
   "author": {
     "name": "matrix",
