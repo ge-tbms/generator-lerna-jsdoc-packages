@@ -21,7 +21,7 @@ module.exports = class extends Generator {
   prompting() {
     // Have Yeoman greet the user.
     this.log(
-      yosay(`Welcome to the rad ${chalk.red('generator-lerna-jest-packages')} generator!`)
+      yosay(`Welcome to the ${chalk.red('lerna-jsdoc-packages')} generator!`)
     );
 
     const prompts = [
